@@ -1,7 +1,7 @@
 <template lang="pug">
   #app
     img(src='https://vicargo.github.io/vue-lastfm/dist/logo.png')
-    h1 Platzimusic
+    h1 Vue LastFM
     select(v-model="selectedCountry")
       option(v-for="country in countries" v-bind:value="country.value") {{ country.name }}
     spinner(v-show="loading")
